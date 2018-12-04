@@ -1,0 +1,21 @@
+*{padding: 0%;margin: 0%;font-family: 'Montserrat', sans-serif;}
+.contact{background: linear-gradient(to right, #485563, #29323c);}
+.contact ul{list-style-type: none; padding: 0%; margin: 0%; float: right;}
+.contact ul li{display: inline-block; color: #fff;padding: 5px; transform: translateX(-25px);}
+.navbar{margin:0%;border-radius: 0%;border: 0px;background: linear-gradient(to right, #fdc830, #f37335);}
+.navbar-inverse .navbar-nav>li>a {color: #fff;}
+.navbar-inverse .navbar-nav>li>a:hover{color: #000;}
+.banner{background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/banner2.jpg);background-position: center center;background-repeat: no-repeat;background-size:100%;color: #fff;padding: 80px;}
+.banner h3{font-weight:bold; text-align: center; color: #fff;transition: 2s;}
+.banner h3:hover{transform: scale(1.1);}
+.affix {position: fixed; top:0;width: 100%;z-index:1;transition: all 500ms ease-in-out;box-shadow:2px 2px 2px 2px #ddd;background-color: #f7f7f7;}
+.affix ~ .container-fluid {position: relative;top: 50px;}
+.space{padding-top: 50px; line-height: 3;}
+.footer{background: linear-gradient(to right, #2c3e50, #4ca1af);text-align: center;color: #fff;padding: 30px;}
+.btn{background: linear-gradient(to right, #11998e, #38ef7d);border-color: transparent;}
+@media(max-width:768px){
+	.contact ul{float: none;}
+	.contact ul li{transform: translateX(0%); padding: 0%;}
+	.banner{padding: 50px;}
+	.banner h3{font-size: 20px;}
+}
